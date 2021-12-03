@@ -1,6 +1,4 @@
-let rot = 0;
-let rotSpeed = 0.015;
-let counter = 0, elapsed = 0;
+let chair;
 
 function setup() {
   createARCanvas(); }
