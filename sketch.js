@@ -7,14 +7,15 @@ function preload(){
 
 function setup() {
 
-  normalMaterial()
-  model(chair);
-  createCanvas(windowWidth,windowHeight); }
+  createARCanvas(); }
 
 
 function draw() {
 chair.rotateX(frameCount*0.1)
 chair.translate(0,0,15)
+normalMaterial()
+model(chair);
+
 
 }
 
