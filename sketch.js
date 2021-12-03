@@ -6,12 +6,13 @@ function setup() {
   createARCanvas(); }
 
 function preload(){
-  chair= loadModel("assets/LP.fbx",true)
+  chair= loadModel("assets/Chair.obj",true)
 }
 
 function draw() {
 rotateX(frameCount*0.1)
 translate(0,0,15)
+normalMaterial()
 model(chair)
 }
 
