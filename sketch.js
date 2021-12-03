@@ -11,11 +11,13 @@ function setup() {
 
 
 function draw() {
-chair.rotateX(frameCount*0.1)
-chair.translate(0,0,15)
+rotateX(frameCount*0.1)
+translate(0,0,15)
 normalMaterial()
 model(chair);
 
+box(20)
+translate(0,0,-10)
 
 }
 
