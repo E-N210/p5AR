@@ -5,9 +5,14 @@ let counter = 0, elapsed = 0;
 function setup() {
   createARCanvas(); }
 
+function preload(){
+  chair= loadModel("assets/LP.fbx",true)
+}
+
 function draw() {
-
-
+rotateX(frameCount*0.1)
+translate(0,0,15)
+model(chair)
 }
 
 // The process of creating the new generation
