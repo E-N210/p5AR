@@ -1,11 +1,13 @@
 let chair;
 
-function setup() {
-  createARCanvas(); }
 
 function preload(){
   chair= loadModel("assets/Chair.obj",true)
 }
+
+function setup() {
+  createARCanvas(); }
+
 
 function draw() {
 rotateX(frameCount*0.1)
