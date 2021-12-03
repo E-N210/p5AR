@@ -9,7 +9,7 @@ function setup() {
 
   normalMaterial()
   model(chair);
-  createARCanvas(); }
+  createCanvas(windowWidth,windowHeight); }
 
 
 function draw() {
