@@ -6,14 +6,15 @@ function preload(){
 }
 
 function setup() {
-  createARCanvas(); }
+  createARCanvas();
+  normalMaterial()
+  model(chair); }
 
 
 function draw() {
-rotateX(frameCount*0.1)
-translate(0,0,15)
-normalMaterial()
-model(chair)
+chair.rotateX(frameCount*0.1)
+chair.translate(0,0,15)
+
 }
 
 // The process of creating the new generation
