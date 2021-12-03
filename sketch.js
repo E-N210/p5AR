@@ -17,7 +17,7 @@ normalMaterial()
 model(chair);
 
 box(20)
-translate(0,0,-10)
+translate(0,0,10)
 
 }
 
