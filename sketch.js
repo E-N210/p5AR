@@ -7,7 +7,7 @@ function preload(){
 
 function setup() {
 
-  createARCanvas();
+  //createARCanvas();
   createCanvas(windowWidth, windowHeight, WEBGL) }
 
 
