@@ -6,9 +6,10 @@ function preload(){
 }
 
 function setup() {
-  createARCanvas();
+
   normalMaterial()
-  model(chair); }
+  model(chair);
+  createARCanvas(); }
 
 
 function draw() {
