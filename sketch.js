@@ -2,7 +2,6 @@ let chair;
 
 
 function preload(){
-  chair= loadModel("assets/Chair.obj",true)
 }
 
 function setup() {
@@ -11,11 +10,9 @@ function setup() {
 
 
 function draw() {
-rotateX(frameCount*0.1)
-translate(0,0,15)
-normalMaterial()
-model(chair);
 
+
+fill(100,240,100)
 box(20)
 translate(0,0,10)
 
