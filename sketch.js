@@ -1,12 +1,19 @@
+let chair;
+
+function preload(){
+  chair= loadModel("./assets/Chair.obj",ture)
+}
+
 
 function setup() {
 
-  createARCanvas(); }
+  createARCanvas();
+  createCanvas(windowWidth, windowHeight, WEBGL) }
 
 
 function draw() {
-fill(100,240,100)
-box(20)
+normalMaterial()
+model(chair)
 translate(0,0,10)
 
 }
