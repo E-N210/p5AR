@@ -1,7 +1,7 @@
 let chair;
 
 function preload(){
-  chair= loadModel("./assets/Chair.obj",true)
+  chair= loadModel('assets/Chair.obj',true)
 }
 
 
