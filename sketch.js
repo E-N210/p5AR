@@ -1,5 +1,6 @@
 let chair;
 
+
 function preload(){
   chair= loadModel('assets/Chair.obj')
 }
@@ -7,8 +8,9 @@ function preload(){
 
 function setup() {
 
-  //createARCanvas();
-  createCanvas(windowWidth, windowHeight, WEBGL) }
+  createARCanvas(windowWidth, windowHeight, WEBGL);
+//  createCanvas(windowWidth, windowHeight, WEBGL)
+}
 
 
 function draw() {
